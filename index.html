@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berkibar MP3 Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script type="importmap">
+        {
+            "imports": {}
+        }
+    </script>
+</head>
+<body>
+    <div class="player-container">
+        <h1 class="player-title">Berkibar MP3 Player</h1>
+        <div class="song-info">
+            <h2 id="song-title"></h2>
+            <h3 id="song-artist"></h3>
+        </div>
+
+        <audio id="audio" src=""></audio>
+
+        <div class="progress-container">
+            <div id="progress-bar" class="progress-bar"></div>
+        </div>
+        <div class="time-display">
+            <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+        </div>
+
+        <div class="controls">
+            <button id="prev-btn" class="control-btn">&laquo;</button>
+            <button id="play-pause-btn" class="control-btn">&#9658;</button>
+            <button id="next-btn" class="control-btn">&raquo;</button>
+        </div>
+
+        <div class="volume-control">
+            <label for="volume-slider">Volume:</label>
+            <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1">
+        </div>
+
+        <button id="download-btn" class="download-btn">Unduh Lagu</button>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
