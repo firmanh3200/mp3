@@ -16,18 +16,83 @@ document.addEventListener('DOMContentLoaded', () => {
     const songs = [
         {
             title: 'Berkibar',
-            artist: 'Tim Berkibar',
+            artist: '@fhy3273',
             src: 'lagu/lagu1.mp3'
         },
         {
             title: 'Berkibar',
-            artist: 'Tim Berkibar',
+            artist: '@fhy3273',
             src: 'lagu/lagu2.mp3'
         },
         {
             title: 'Berkibar',
-            artist: 'Tim Berkibar',
+            artist: '@fhy3273',
             src: 'lagu/lagu3.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu4.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu5.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu6.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu7.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu8.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu9.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu10.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu11.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu12.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu13.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu14.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu15.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu16.mp3'
         }
     ];
 
