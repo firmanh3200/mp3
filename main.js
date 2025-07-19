@@ -93,6 +93,51 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Berkibar',
             artist: '@fhy3273',
             src: 'lagu/lagu16.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu17.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu18.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu19.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu20.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu21.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu22.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu23.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu24.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu25.mp3'
         }
     ];
 
