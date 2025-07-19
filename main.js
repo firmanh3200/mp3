@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const durationSpan = document.getElementById('duration');
     const volumeSlider = document.getElementById('volume-slider');
     const downloadBtn = document.getElementById('download-btn');
+    const shareBtn = document.getElementById('share-btn'); // Get the new share button
 
     // Array of songs. Place your MP3 files in the 'lagu/' folder.
     const songs = [
@@ -238,6 +239,48 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
+    });
+
+    // Share button functionality
+    shareBtn.addEventListener('click', async () => {
+        const currentSong = songs[currentSongIndex];
+        if (navigator.share) {
+            try {
+                await navigator.share({
+                    title: `${currentSong.title} - ${currentSong.artist}`,
+                    text: `Dengarkan "${currentSong.title}" oleh ${currentSong.artist} di pemutar MP3 ini!`,
+                    url: window.location.href // Share the current page URL
+                });
+                console.log('Song shared successfully!');
+            } catch (error) {
+                console.error('Error sharing song:', error);
+                // User cancelled the share or other error occurred
+                if (error.name === 'AbortError') {
+                    console.log('Share cancelled by user.');
+                } else if (error.name === 'NotAllowedError') {
+                    console.warn('Share not allowed (e.g., not in a secure context or permission denied).');
+                }
+            }
+        } else {
+            // Fallback for browsers that do not support Web Share API or not in a secure context
+            console.warn('Web Share API not supported or not in a secure context. Attempting to copy to clipboard.');
+            const shareUrl = window.location.href;
+            const shareText = `Dengarkan "${currentSong.title}" oleh ${currentSong.artist} di pemutar MP3 ini! ${shareUrl}`;
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                try {
+                    await navigator.clipboard.writeText(shareText);
+                    alert('Tautan lagu telah disalin ke clipboard Anda! Tempelkan di media sosial Anda.');
+                    console.log('Share URL copied to clipboard:', shareText);
+                } catch (err) {
+                    console.error('Gagal menyalin tautan:', err);
+                    alert('Web Share API tidak didukung di browser ini. Anda bisa menyalin tautan ini secara manual: ' + shareUrl);
+                }
+            } else {
+                // Older fallback for browsers without clipboard API
+                alert('Web Share API tidak didukung di browser ini. Anda bisa menyalin tautan ini secara manual: ' + shareUrl);
+            }
+        }
     });
 
     // Initial load
