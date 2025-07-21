@@ -139,6 +139,86 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Berkibar',
             artist: '@fhy3273',
             src: 'lagu/lagu25.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu30.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu31.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu32.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu33.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu34.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu35.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu36.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu37.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu38.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu39.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu40.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu41.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu42.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu43.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu44.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu45.mp3'
         }
     ];
 
