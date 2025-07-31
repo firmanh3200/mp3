@@ -143,6 +143,26 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'Berkibar',
             artist: '@fhy3273',
+            src: 'lagu/lagu26.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu27.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu28.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
+            src: 'lagu/lagu29.mp3'
+        },
+        {
+            title: 'Berkibar',
+            artist: '@fhy3273',
             src: 'lagu/lagu30.mp3'
         },
         {
